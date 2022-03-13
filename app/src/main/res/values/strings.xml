@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TeleChamba</string>
+    <string name="h_email">Email</string>
+    <string name="h_password">Contraseña</string>
+    <string-array name="generos">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    //activity create project
+    <string name="botonCrear">Crear </string>
+    <string name="botonRegresarPrincipal">Regresar a Principal</string>
+    //activity main
+    <string name="botonCrearProyecto">Crear Proyecto</string>
+    <string name="botonPerfil">Perfil</string>
+    <string name="botonSalir">Salir</string>
+    //activity profile
+    <string name="botonPaginaPrincipal">Pagina Principal</string>
+
+</resources>

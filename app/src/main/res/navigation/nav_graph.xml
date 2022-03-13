@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.telechamba.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/createProjectActivity"
+        android:name="com.example.telechamba.CreateProjectActivity"
+        android:label="activity_create_project"
+        tools:layout="@layout/activity_create_project" />
+    <activity
+        android:id="@+id/register"
+        android:name="com.example.telechamba.Register"
+        android:label="activity_register"
+        tools:layout="@layout/activity_register" />
+    <activity
+        android:id="@+id/confirmEmail"
+        android:name="com.example.telechamba.ConfirmEmail"
+        android:label="activity_confirm_email"
+        tools:layout="@layout/activity_confirm_email" />
+    <activity
+        android:id="@+id/contratar"
+        android:name="com.example.telechamba.Contratar"
+        android:label="activity_contratar"
+        tools:layout="@layout/activity_contratar" />
+    <activity
+        android:id="@+id/login"
+        android:name="com.example.telechamba.Login"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/profile"
+        android:name="com.example.telechamba.Profile"
+        android:label="activity_profile"
+        tools:layout="@layout/activity_profile" />
+    <activity
+        android:id="@+id/projectOwnerView"
+        android:name="com.example.telechamba.ProjectOwnerView"
+        android:label="activity_project_owner_view"
+        tools:layout="@layout/activity_project_owner_view2" />
+    <activity
+        android:id="@+id/projectUserView"
+        android:name="com.example.telechamba.ProjectUserView"
+        android:label="activity_project_user_view"
+        tools:layout="@layout/activity_project_user_view" />
+
+</navigation>

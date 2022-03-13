@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textVacantesMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        app:layout_constraintStart_toStartOf="@+id/textSueldoMostrar"
+        app:layout_constraintTop_toBottomOf="@+id/textSueldoMostrar"
+        tools:text="Mostrar" />
+
+    <TextView
+        android:id="@+id/textSueldoMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="@+id/textRubroMostrar"
+        app:layout_constraintTop_toBottomOf="@+id/textRubroMostrar"
+        tools:text="Sueldo" />
+
+    <TextView
+        android:id="@+id/textRubroMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintStart_toStartOf="@+id/textDescripcionMostrar"
+        app:layout_constraintTop_toBottomOf="@+id/textDescripcionMostrar"
+        tools:text="Rubro" />
+
+    <TextView
+        android:id="@+id/textRubro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="46dp"
+        android:text="Rubro:"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textSueldoMostrar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDescripcionMostrar" />
+
+    <TextView
+        android:id="@+id/textSueldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="47dp"
+        android:text="Sueldo: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textRubro" />
+
+    <TextView
+        android:id="@+id/textDescripcionMostrar"
+        android:layout_width="172dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEmpresaMostrar"
+        tools:text="Descripcion de Proyecto" />
+
+    <TextView
+        android:id="@+id/tvProjectTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="PROYECTO"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textEmpresaNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="29dp"
+        android:text="Empresa: "
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvProjectTittle" />
+
+    <TextView
+        android:id="@+id/textEmpresaNombre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="49dp"
+        android:text="Descripcion:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textEmpresaNombre" />
+
+    <TextView
+        android:id="@+id/textEmpresaMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textEmpresaNombre"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Nombre de Empresa" />
+
+    <TextView
+        android:id="@+id/textVacantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="43dp"
+        android:text="Vacantes:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSueldo" />
+
+    <Button
+        android:id="@+id/buttonPostular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="Postular"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
